@@ -5,7 +5,7 @@
   tasks:
     - name: Créer le dossier de l'app sur le serveur
       file:
-        path: /opt/simple-api
+        path: /opt/new-api
         state: directory
         mode: '0755'
 
